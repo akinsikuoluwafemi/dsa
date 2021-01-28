@@ -13,19 +13,19 @@
 //   buzz
 
 function fizzBuzz(n) {
-    for (let i = 1; i <= n; i++){
-        if(i % 15 === 0){
-            console.log('fizzbuzz')
-        }else if(i % 5 === 0){
-            console.log('buzz')
-        }else if(i % 3 === 0){
+    for (let i = n; i < n; i++){
+        if(n % 3 === 0){
             console.log('fizz')
+        }else if(n % 5 === 0){
+            console.log('buzz')
+        }else if(n % 15 === 0){
+            console.log('fizz-buzz')
         } else {
             console.log(i)
         }
     }
 }
 
-fizzBuzz(21)
+console.log(fizzBuzz(21))
 
 module.exports = fizzBuzz;
