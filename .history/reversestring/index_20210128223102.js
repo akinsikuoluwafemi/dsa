@@ -27,11 +27,12 @@
 
 // }
 
-const reverse= str => {
-   return str.split('').reduce((reversed, character) => {
-        return character + reversed
-    }, '')
+function reverse(str) {
 
+    reversed = character + reversed;
+  }
+
+  return reversed;
 }
 
 

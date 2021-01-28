@@ -27,7 +27,7 @@
 
 // }
 
-const reverse= str => {
+const reverse {
    return str.split('').reduce((reversed, character) => {
         return character + reversed
     }, '')

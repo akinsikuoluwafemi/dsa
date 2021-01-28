@@ -27,12 +27,11 @@
 
 // }
 
-const reverse= str => {
-   return str.split('').reduce((reversed, character) => {
+const reverse= str =>  str.split('').reduce((reversed, character) => {
         return character + reversed
-    }, '')
+    , '')
 
-}
+
 
 
 module.exports = reverse;

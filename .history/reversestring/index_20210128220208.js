@@ -15,24 +15,10 @@
 
 
 
-// function reverse(str) {
-//     let reversed = '';
-
-//     for(let character of str){
-//         reversed = character + reversed;
-//     }
-
-//     return reversed;
-
-
-// }
-
-const reverse= str => {
-   return str.split('').reduce((reversed, character) => {
-        return character + reversed
-    }, '')
+function reverse(str) {
 
 }
 
+console.log(reverse("femi"));
 
 module.exports = reverse;

@@ -15,22 +15,15 @@
 
 
 
-// function reverse(str) {
-//     let reversed = '';
+function reverse(str) {
+    let reversed = '';
 
-//     for(let character of str){
-//         reversed = character + reversed;
-//     }
+    for (let character of str)
+    {
+        
+    }
 
-//     return reversed;
 
-
-// }
-
-const reverse= str => {
-   return str.split('').reduce((reversed, character) => {
-        return character + reversed
-    }, '')
 
 }
 
