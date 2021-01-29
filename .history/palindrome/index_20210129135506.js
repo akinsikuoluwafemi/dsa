@@ -9,8 +9,8 @@
 
 
  function palindrome(str){
-    return str.split('').every((char,i) => {
-         return char === str[str.length - i - 1]
+     str.split('').every((char,i) => {
+         return char === char[i - 1] - 1
      })
  }
 
@@ -24,7 +24,7 @@
 //     }
 // }
 
-palindrome('apapa')
+// palindrome('apapa')
 
 
 

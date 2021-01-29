@@ -24,7 +24,7 @@
 //     }
 // }
 
-palindrome('apapa')
+// palindrome('apapa')
 
 
 
