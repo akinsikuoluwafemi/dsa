@@ -20,6 +20,8 @@ function maxChar(str) {
         }
     }
 
+    console.log(emptyObj)
+
 
     for(let char in emptyObj){
         if(emptyObj[char] > max){
@@ -28,7 +30,7 @@ function maxChar(str) {
         }
     }
     
-    return maxChar;
+    return max;
 
 
 }

@@ -28,7 +28,7 @@ function maxChar(str) {
         }
     }
     
-    return maxChar;
+    return max;
 
 
 }

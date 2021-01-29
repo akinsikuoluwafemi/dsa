@@ -9,9 +9,6 @@ function maxChar(str) {
     
     let emptyObj = {}
 
-    let max = 0;
-    let maxChar = "";
-
     for(let char of str){
         if(!emptyObj[char]){
             emptyObj[char] = 1;
@@ -20,15 +17,9 @@ function maxChar(str) {
         }
     }
 
-
-    for(let char in emptyObj){
-        if(emptyObj[char] > max){
-            max = emptyObj[char];
-            maxChar = char;
-        }
-    }
+    let max = 0;
+    let maxChar
     
-    return maxChar;
 
 
 }
